@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>user-announcements</title>
+    <link rel="stylesheet" href="../admin-page/admin.css">
+	<link rel="stylesheet" href="../css/user-admin.css">
+</head>
+<body>
+	<div id="container">
+		<header>
+           <nav class="nav-bar">
+					<!-- <a href="">User</a> -->
+					<a href="">Logout</a>
+				</nav>
+		</header>
+
+		<div id="main">
+
+			<div id="right">
+               <a href="create-announcement.html">create an Announcement</a>
+				<a href="view-all-announcement.html">View all Announcements</a>
+				<a href="view-my-announcement.html">view my nnouncement</a>
+				<a href="update-announcement.html">update Announcement</a>
+			</div>
+
+			<div id="left">
+				<form action="" id="form">
+                    <h1>My announcement</h1>
+					<input type="text" id="topic" placeholder="write your topic" class="topic" value="Education"><br><br>
+					<input type="text" id="tittle" placeholder="announcement tittle" class="topic" Provisional marks for Students><br><br>
+                    <textarea id="subject" id="subject" placeholder="Write your announcement.." style="height:200px">Level one marks for all the subjects</textarea>
+                    
+                    <hr>
+                   
+				</form>
+				
+             <table cell-spacing="10">
+				 <!-- <thead>
+					 <tr>
+						 <th>Topic</th>
+						 <th>tittle</th>
+						 <th>View </th>
+						 <th>author</th>
+						 
+						 <th>update</th>
+					 </tr>
+				 </thead> -->
+				 <tbody id="display-result">
+
+				 </tbody>
+			 </table>
+			</div>
+          
+		</div>
+
+		<div id="footer">
+
+		</div>
+	</div>
+	<script src="../js/create.js"></script>
+</body>
+</html>

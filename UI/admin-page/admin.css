@@ -1,0 +1,86 @@
+#container{
+  height: 700px;
+  background-color: #F1F1F1;
+}
+
+header{
+  height: 50px;
+  background-color: #3399FF;
+  padding: 1px;
+  text-align: center;
+  color: #F1F1F1;
+}
+header nav {
+  float: right;
+}
+
+.nav-bar {
+
+  text-decoration: none;
+  display: inline-block;
+  display: flex;
+
+}
+.nav-bar a{
+  
+  color: #f2f2f2;
+  text-decoration: none;
+  text-align: center;
+  padding: 12px 18px;
+
+}
+#main{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 15px;
+  width: 100%;
+}
+#right{
+  height: 600px;
+  width: 15%;
+  background-color: #3399FF;
+}
+#right a{
+color: white;
+display: block;
+border: 1px solid gray;
+padding: 10px;
+text-decoration: none;
+  
+}
+#right a:hover{
+  background: #3399FF;
+  background: gray;
+}
+
+#left{
+  height: 600px;
+  background-color:  #F1F1F1;
+  width: 83%;
+  flex-direction: row;
+  margin-left:20px;
+
+}
+table { 
+	width: 750px; 
+	border-collapse: collapse; 
+	margin:50px auto;
+	}
+
+/* Zebra striping */
+tr:nth-of-type(odd) { 
+	background: #eee; 
+	}
+
+th { 
+	background: #3498db; 
+	color: white; 
+	font-weight: bold; 
+	}
+
+td, th { 
+	padding: 10px; 
+	border: 1px solid #ccc; 
+	text-align: left; 
+	font-size: 18px;
+	}
