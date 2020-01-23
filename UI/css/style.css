@@ -18,7 +18,9 @@ ul li {
   display: inline-block;
   margin-top: 20px;
 }
-
+header form{
+  float: left;
+}
 header nav {
   float: right;
 }
