@@ -18,10 +18,7 @@ ul li {
   display: inline-block;
   margin-top: 20px;
 }
-.formbtn {
-  float: left;
-  margin-left: 30px;
-}
+
 header nav {
   float: right;
 }
