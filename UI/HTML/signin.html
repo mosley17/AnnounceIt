@@ -17,13 +17,12 @@
         <div class="main-content">
             <div class="top-bar">
                 <a href="" class="logo"><img src="../images/logo.png" alt="logo-image"></a>
-                <form class="backbtn">
-                    <input type="button" value="Go back" onclick="history.back()">
-                </form>
+            
                 <nav>
                     <ul>
+                        <li><button class="gobackBtn" onclick="history.back()">Go Back</button></li>
                         <li><a href="index.html">Home</a></li>
-                        <!-- <li><a href="signin.html">Sign In</a></li> -->
+                        
                     </ul>
             
                 </nav>
@@ -35,7 +34,7 @@
     </header>
     <div class="login-form">
         <form action="admin-page.html" method="POST">
-            <h1 class="title">Sign In</h1>
+            <h2 class="title">Sign In</h2>
             <div>
                 <label for="UserName">Username</label>
                 <input type="text" name="username" class="input-text" id="userId">

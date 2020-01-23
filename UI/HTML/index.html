@@ -30,24 +30,23 @@
             <h1 class="item1">Welcome to our broadcasting Agency</h1>
             <div class="item2">
                 <form action="user-announcement-page.html" id="form">
-                    <h2 class="title">Sign Up</h2>
+                    <h1 class="title">Sign Up</h1>
                     <div>
                         <label for="UserName">Username</label>
-                        <input type="text" name="username" class="input-text" id="userId">
-                        <div class="error"></div>
+                        <input type="text" name="username" class="input-text" id="userId" required>
+                        <div class="errorUser" style="display: none; color: red;">Username can be at least 6 characters </div>
                     </div>
                     <div>
                         <label for="email">Email</label>
                         <input type="email" name="email" class="input-text" id="emailId" required>
-                        <div class="error"></div>
+                        <div class="errorEml" style="display: none;color: red;">please provide a valid email</div>
                     </div>
                     <div>
                         <label for="password">Password</label>
                         <input type="password" name="pass" class="input-pass" id="passwordId" required>
-                        <div class="error"></div>
+                        <div class="errorPwd" style="display: none; color: red;">please provide a strong password </div>
                     </div>
                     <div>
-                        >
                         <div>
                             <button type="submit" name="btn" class="btn" id="btnId">
                                 Register
