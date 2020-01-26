@@ -10,3 +10,4 @@ btnReset.addEventListener("click", function(){
         errorRes.style.display="block";
     }
 });
+
