@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>signin</title>
+    <link href="https://fonts.googleapis.com/css?family=Courgette|Playfair+Display|Vidaloka&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="main-content">
+            <div class="top-bar">
+                <a href="" class="logo"><img src="../images/logo.png" alt="logo-image"></a>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="signin.html">Sign In</a></li>
+                    </ul>
+                    <!-- <button class="navbar-toggle">
+                        <span></span>
+                    </button> -->
+                </nav>
+
+
+            </div>
+        </div>
+
+    </header>
+    <div class="login-form">
+        <form action="admin-page.html" method="POST">
+            <h2 class="title">Sign In</h2>
+            <div>
+                <label for="UserName">Username</label>
+                <input type="text" name="username" class="input-text" id="userId">
+                <div class="error"></div>
+            </div>
+            <div>
+                <label for="password">Password</label>
+                <input type="password" name="pass" class="input-pass" id="passwordId" required>
+                <div class="error"></div>
+            </div>
+
+            <div>
+                    <button type="submit" name="btn" class="btn" id="btnId">
+                        Sign In
+                    </button>
+                </div>
+            Forgot password? <a href="reset-password.html"> Reset a password </a>
+        </form>
+    </div>
+</body>
+
+</html>

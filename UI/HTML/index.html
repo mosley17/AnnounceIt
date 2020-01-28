@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>AnnounceIT</title>
+    <link href="https://fonts.googleapis.com/css?family=Courgette|Playfair+Display|Vidaloka&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="main-content">
+            <div class="top-bar">
+                <a href="" class="logo"><img src="../images/logo.png" alt="logo-image"></a>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="signin.html">Login</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main class="wrapper">
+        <section class="main_content">
+            <h1 class="item1">Welcome to our broadcasting Agency</h1>
+            <div class="item2">
+                <form action="user-announcement-page.html" id="form">
+                    <h2 class="title">Sign Up</h2>
+                    <div>
+                        <label for="UserName">Username</label>
+                        <input type="text" name="username" class="input-text" id="userId">
+                        <div class="error"></div>
+                    </div>
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" name="email" class="input-text" id="emailId" required>
+                        <div class="error"></div>
+                    </div>
+                    <div>
+                        <label for="password">Password</label>
+                        <input type="password" name="pass" class="input-pass" id="passwordId" required>
+                        <div class="error"></div>
+                    </div>
+                    <div>
+                        >
+                        <div>
+                            <button type="submit" name="btn" class="btn" id="btnId">
+                                Register
+                            </button>
+                        </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy;2020 developed by Mosley @pro engineer</p>
+    </footer>
+    <script src="../js/index.js"></script>
+</body>
+
+</html>
