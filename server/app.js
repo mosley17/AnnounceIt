@@ -1,5 +1,6 @@
 import express from 'express';
 import userController from './controllers/userController';
+import announcementController from './controllers/announcementController';
 
 const app = express();
 
@@ -22,12 +23,7 @@ app.use(express.json());
 // })
 // app.post('/api/v1/announcement', (req,res)=>{
 //     const announcement={
-//         id:announcements.length+1,
-//         owner: req.body.owner,
-//         status: req.body.status,
-//         text: req.body.text,
-//         start_date: req.body.start_date,
-//         end_date: req.body.end_date
+        
 //     };
 //     announcements.push(announcement);
 //    res.send(announcement);
@@ -38,7 +34,8 @@ app.get('/', (req,res)=>{
         "message":"welldone"
     })
 })
-app.post('/api/v1/auth/signup', userController.userAPI)
+app.post('/api/v1/auth/signup', userController.userEnd)
+app.post('/api/v1/announcement', announcementController.announceEnd)
 const port = process.env.PORT || 3000;
 
 
