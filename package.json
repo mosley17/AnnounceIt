@@ -1,0 +1,34 @@
+{
+  "name": "announceit",
+  "version": "1.0.0",
+  "description": "broadicasting agency for advertisers",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mocha": "^7.0.0",
+    "moment": "^2.24.0",
+    "nodemon": "^2.0.2",
+    "uuid": "^3.4.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.3",
+    "@babel/core": "^7.8.3",
+    "@babel/node": "^7.8.3",
+    "@babel/preset-env": "^7.8.3",
+    "eslint": "^6.8.0"
+  },
+  "scripts": {
+    "test": "Mocha",
+    "dev": "nodemon --exec babel-node ./server/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mosley17/AnnounceIt.git"
+  },
+  "author": "Maniraguha Moise",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mosley17/AnnounceIt/issues"
+  },
+  "homepage": "https://github.com/mosley17/AnnounceIt#readme"
+}
