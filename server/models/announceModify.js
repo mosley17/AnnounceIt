@@ -7,6 +7,5 @@ const viewAllAnnouncements= (req,res) =>{
 
     });
 };
-
-
 export default viewAllAnnouncements;
+

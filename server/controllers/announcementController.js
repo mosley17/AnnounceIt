@@ -3,8 +3,8 @@ class AnnouncementController {
     constructor() {
         this.announceEnd = (req, res) => {
             const announceInput = announcements.createAnnounce(req.body)
-            return res.status(200).json({
-                "status": "success",
+            return res.status(201).json({
+                "status": "created successfully",
                 "data": announceInput
 
             });
@@ -13,3 +13,5 @@ class AnnouncementController {
 }
 
 export default new AnnouncementController();
+
+
