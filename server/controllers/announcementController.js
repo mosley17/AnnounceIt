@@ -13,3 +13,4 @@ class AnnouncementController {
 }
 
 export default new AnnouncementController()
+
