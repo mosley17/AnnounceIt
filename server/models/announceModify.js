@@ -16,4 +16,3 @@ export const viewSpecificAnnounce =(req,res) =>{
     })
 }
 
-// export default {viewAllAnnouncements, viewSpecificAnnounce};

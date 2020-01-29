@@ -7,19 +7,6 @@ const app = express();
 
 app.use(express.json());
 
-
-
-
-
-// })
-// app.post('/api/v1/announcement', (req,res)=>{
-//     const announcement={
-        
-//     };
-//     announcements.push(announcement);
-//    res.send(announcement);
-// })
-
 app.get('/', (req,res)=>{
     res.status(200).json({
         "message":"welldone"
@@ -35,3 +22,4 @@ const port = process.env.PORT || 3000;
 app.listen(port, () => console.log(`listen to port ${port}`))
 
 export default app;
+

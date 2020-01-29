@@ -3,8 +3,8 @@ class UserController {
     constructor() {
         this.userEnd = (req, res) => {
             const userInput = user.createUser(req.body)
-            return res.status(200).json({
-                "status": "success",
+            return res.status(201).json({
+                "status": "created successfully",
                 "data": userInput
 
             })
@@ -13,3 +13,5 @@ class UserController {
 }
 
 export default new UserController()
+
+

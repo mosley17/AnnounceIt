@@ -18,3 +18,4 @@ class Announce {
 }
 
 export default new Announce();
+
