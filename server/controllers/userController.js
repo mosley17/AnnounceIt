@@ -3,8 +3,8 @@ class UserController {
     constructor(){
         this.userAPI = (req,res) =>{
            const apiUser= user.createUser(req.body)
-            return res.status(200).json({
-                "status": "success",
+            return res.status(201).json({
+                "status": "created successfully",
                 "data": user.createUser(req.body)
             
             })
@@ -13,3 +13,4 @@ class UserController {
 }
 
 export default new UserController()
+
