@@ -13,6 +13,7 @@ class Announce {
             announcements.push(announceDetails);
             return announceDetails;
         }
+
     }
 }
 

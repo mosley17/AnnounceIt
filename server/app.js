@@ -1,19 +1,13 @@
 import express from 'express';
 import userController from './controllers/userController';
 import announcementController from './controllers/announcementController';
+import viewAllAnnouncements from './models/announceModify';
 
 const app = express();
 
 app.use(express.json());
 
-// const announcements=[];
 
-// app.get('/', (req,res) =>{
-//     res.send('Welcome to our agency');
-// });
-// app.get('/api/v1/announcements', (req,res) =>{
-//     res.send(announcements)
-// });
 
 // app.get('/api/v1/announcements/:id', (req,res)=>{
 //     const announcement= announcements.find(announce= announce.id === parseInt(req.params.id));
@@ -36,6 +30,7 @@ app.get('/', (req,res)=>{
 })
 app.post('/api/v1/auth/signup', userController.userEnd)
 app.post('/api/v1/announcement', announcementController.announceEnd)
+app.get('/api/v1/allannouncements', viewAllAnnouncements)
 const port = process.env.PORT || 3000;
 
 

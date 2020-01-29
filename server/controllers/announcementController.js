@@ -7,9 +7,9 @@ class AnnouncementController {
                 "status": "success",
                 "data": announceInput
 
-            })
+            });
         }
     }
 }
 
-export default new AnnouncementController()
+export default new AnnouncementController();
