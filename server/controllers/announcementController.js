@@ -12,6 +12,4 @@ class AnnouncementController {
     }
 }
 
-export default new AnnouncementController();
-
-
+export default new AnnouncementController()
