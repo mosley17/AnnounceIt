@@ -35,4 +35,3 @@ export const updateAnnouncement = (req, res) => {
         "data": announceSpec
     })
 }
-
