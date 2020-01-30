@@ -55,6 +55,10 @@ export const deleteAnnouncement= (req,res) =>{
 >>>>>>> ft-upadate-announcement-170966918
 
 <<<<<<< HEAD
+||||||| merged common ancestors
+// export default {viewAllAnnouncements, viewSpecificAnnounce};
+=======
+<<<<<<< HEAD
     const trackIndex= announcements.indexOf(announceSpec);
     announcements.splice(trackIndex,1);
     res.status(200).json({
@@ -66,3 +70,4 @@ export const deleteAnnouncement= (req,res) =>{
 export default viewAllAnnouncements;
 =======
 >>>>>>> ft-upadate-announcement-170966918
+>>>>>>> develop
