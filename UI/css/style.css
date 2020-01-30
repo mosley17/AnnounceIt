@@ -54,7 +54,7 @@ font-family: 'Courgette', cursive;  */
   display: grid;
   background: url('../images/back-image.jfif') center;
   background-size: cover;
-  padding: 4rem 2rem;
+  /* padding: 4rem 2rem; */
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   justify-items: center;
 }
@@ -66,7 +66,7 @@ font-family: 'Courgette', cursive;  */
 }
 
 .main_content> h1{
-  font-size: 4rem;
+  font-size: 2rem;
   padding-bottom: 1rem;
 }
 
@@ -81,9 +81,9 @@ label {
 .input-text,
 .input-pass, select
 {
-   font-size:20px;
-    width: 100%;
-    padding: 12px;
+   font-size:13px;
+    width: 90%;
+    padding: 7px;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
@@ -128,7 +128,7 @@ select{
 }
 
 .btn {
-  width:100%;
+  width:90%;
   background-color:#3399FF;
   color: white;
   padding: 0.5rem 1rem;

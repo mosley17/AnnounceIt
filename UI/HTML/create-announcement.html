@@ -1,26 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>user-announcements</title>
-    <link rel="stylesheet" href="../css/admin.css">
+	<link rel="stylesheet" href="../css/admin.css">
 	<link rel="stylesheet" href="../css/user-admin.css">
 </head>
+
 <body>
 	<div id="container">
 		<header>
-           <nav class="nav-bar">
-				<button class="gobackBtn" onclick="history.back()">Go Back</button>
-					<a href="index.html">Logout</a>
-				</nav>
+			<div class="logo-part">
+				<a href="index.html" class="logo"><img src="../images/logo.png" alt="logo-image"></a>
+			</div>
+			<nav class="nav-bar">
+				<a href="index.html"> Logout </a>
+			</nav>
 		</header>
 
 		<div id="main">
 
 			<div id="right">
-               <a href="create-announcement.html">create an Announcement</a>
+				<a href="create-announcement.html">create an Announcement</a>
 				<a href="view-all-announcement.html">View all Announcements</a>
 				<a href="view-my-announcement.html">view my nnouncement</a>
 				<a href="update-announcement.html">update Announcement</a>
@@ -28,31 +32,18 @@
 
 			<div id="left">
 				<form action="" id="form">
-                    <h1>Create the announcement</h1>
+					<h1>Create the announcement</h1>
 					<input type="text" id="topic" placeholder="write your topic" class="topic"><br><br>
 					<input type="text" id="tittle" placeholder="announcement tittle" class="topic"><br><br>
-                    <textarea id="subject" id="subject" placeholder="Write your announcement.." style="height:200px"></textarea>
-                
-                    <hr>
-                    <input type="submit" value="Create" class="btn">
-				</form>
-				<hr>
-             <!-- <table>
-				 <thead>
-					 <tr>
-						 <th>Topic</th>
-						 <th>tittle</th>
-						 <th>View </th>
-						 <th>author</th>
-						 
-					 </tr>
-				 </thead>
-				 <tbody id="display-result">
+					<textarea id="subject" id="subject" placeholder="Write your announcement.."
+						style="height:200px"></textarea>
 
-				 </tbody>
-			 </table> -->
+					<hr>
+					<input type="submit" value="Create" class="btn">
+				</form>
+
 			</div>
-          
+
 		</div>
 
 		<div id="footer">
@@ -61,4 +52,5 @@
 	</div>
 	<script src="../js/create.js"></script>
 </body>
+
 </html>
