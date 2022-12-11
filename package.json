@@ -4,7 +4,7 @@
   "description": "broadicasting agency for advertisers",
   "main": "app.js",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "joi": "^14.3.1",
     "mocha": "^7.0.0",
     "moment": "^2.24.0",
